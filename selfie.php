@@ -28,11 +28,9 @@
           <img class="modal-content" id="img01">
 
         </div>
+  </div>
 
 
-    </div>
-
-
-
+<script src="modal.js"></script>
   </body>
 </html>
