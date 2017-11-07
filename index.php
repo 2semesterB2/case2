@@ -12,13 +12,13 @@
   <body class="forside-bg">
     <div class="container-fluid">
       <h1 id="antik">Antikmuseet</h1>
-      <div id="knap1">
-        <a href="selfie.php">Selfie</a>
-        </div>
+      <form method="get" action="statue.php">
+            <button id="knap1" type="submit">Statue</button>
+          </form>
 
-  <div id="knap2">
-    <a href="statue.php">Statue</a>
-  </div>
+        <form method="get" action="Selfie.php">
+                  <button id="knap2" type="submit">Selfie</button>
+                </form>
 
 
 
