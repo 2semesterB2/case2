@@ -28,6 +28,13 @@ text-decoration:none;
 
 }
 
+/* CSS for images inside item wrapper */
+.kc-item img {
+  position:absolute;
+  pointer-events: none;   /* Make images non-selectable. */
+  width:100%;             /* Make images expand to wrapper size. */
+}
+
 #statue-bg {
   background: url("/img/greece-background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
