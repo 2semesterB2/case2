@@ -9,7 +9,7 @@
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body>
+  <body class="forside-bg">
     <div class="container-fluid">
       <h1 id="antik">Antikmuseet</h1>
       <div id="knap1">
@@ -19,9 +19,6 @@
   <div id="knap2">
     <a href="statue.php">Statue</a>
   </div>
-
-    </div>
-
 
 
 

@@ -1,4 +1,4 @@
-body {
+body.forside-bg {
 background-image: url("/img/background.png");
 -webkit-background-size: cover;
  -moz-background-size: cover;
@@ -28,9 +28,15 @@ text-decoration:none;
 
 }
 
+#statue-bg {
+  background: url("/img/greece-background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-
- #knap2 {
+#knap2 {
 position: absolute;
 left: 10%;
 bottom: 60%;
