@@ -21,6 +21,17 @@ background-image: url("/img/background.png");
   font-size: 75px;
 }
 
+.slide-scale {
+  padding: 1.5% 20% 5% 20%;
+  text-align: center;
+}
+
+.slide-img {
+  max-height: 90vh;
+  max-width: 100%;
+  margin: auto;
+}
+
 #knap1 {
   position: absolute;
   left: 55%;
@@ -34,13 +45,6 @@ background: #007fd4;
 padding: 10px 20px 10px 20px;
 text-decoration:none;
 
-}
-
-/* CSS for images inside item wrapper */
-.kc-item img {
-  position:absolute;
-  pointer-events: none;   /* Make images non-selectable. */
-  width:100%;             /* Make images expand to wrapper size. */
 }
 
 #statue-bg {
