@@ -17,9 +17,19 @@ background-image: url("/img/background.png");
   position: absolute;
   left: 55%;
   bottom: 35%;
-background-color: #1b3762 !important;
-border-radius: .25rem !important;
+-webkit-border-radius: 20;
+-moz-border-radius: 20;
+border-radius: 20px;
+color: #ffffff;
+font-size: 40px;
+background: #007fd4;
+padding: 10px 20px 10px 20px;
+text-decoration:none;
+
 }
+
+
+
  #knap2 {
 position: absolute;
 left: 10%;
@@ -28,20 +38,8 @@ background-color: #1b3762 !important;
 border-radius: .25rem !important;
 
 }
-.btn {
-  padding: .375rem 5rem !important;
-background-color: #1b3762 !important;
-border-color: #1b3762 !important;
 
 }
-test{
-  background-color: red;
-}
-.btn:hover {
-  background: #5170ff !important;
-}
-
-
 
 label {
   font-size: 28px;
