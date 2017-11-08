@@ -21,15 +21,24 @@ background-image: url("/img/background.png");
   font-size: 75px;
 }
 
-.slide-scale {
-  padding: 1.5% 20% 5% 20%;
-  text-align: center;
+.container-slide {
+  width: 100%;
+  text-align: center;  /* align the inline(-block) elements horizontally */
 }
 
+.image-slide {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+
 .slide-img {
-  max-height: 90vh;
+  display: block;
+  max-height: 100vh;
   max-width: 100%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 #knap1 {

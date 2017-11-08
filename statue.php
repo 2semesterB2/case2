@@ -11,13 +11,15 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   </head>
   <body>
-    <div class="slide-scale">
+  <div class="container-fluid">
+    <div class="container-slide">
       <div class="image-slide">
         <div><img src="img/statue/statue-1.jpg" class="slide-img"></div>
         <div><img src="img/statue/statue-2.jpg" class="slide-img"></div>
         <div><img src="img/statue/statue-3.jpg" class="slide-img"></div>
       </div>
     </div>
+  </div>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -27,7 +29,8 @@
     $(document).ready(function(){
       $('.image-slide').slick({
           infinite: true,
-
+          prevArrow: false,
+          nextArrow: false,
       });
     });
   </script>
