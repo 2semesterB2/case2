@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   </head>
   <body>
+    <form method="get" action="index.php">
+              <button id="tilbage" type="submit">Forside</button>
+            </form>
   <div class="container-fluid">
     <div class="container-slide">
       <div class="image-slide">
