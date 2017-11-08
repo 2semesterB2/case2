@@ -7,7 +7,7 @@ background-image: url("/img/background.png");
  background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 1025px) {
 
   img {
     display: none;
@@ -36,14 +36,26 @@ background-image: url("/img/background.png");
   position: absolute;
   left: 55%;
   bottom: 35%;
--webkit-border-radius: 20;
--moz-border-radius: 20;
-border-radius: 20px;
-color: #ffffff;
-font-size: 40px;
-background: #007fd4;
-padding: 10px 20px 10px 20px;
-text-decoration:none;
+  -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 40px;
+    background: #1b6ba1;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-color: #2186c4;
+}
+
+#knap1:hover {
+  background: #2186c4;
+    background-image: -webkit-linear-gradient(top, #2186c4, #3498db);
+    background-image: -moz-linear-gradient(top, #2186c4, #3498db);
+    background-image: -ms-linear-gradient(top, #2186c4, #3498db);
+    background-image: -o-linear-gradient(top, #2186c4, #3498db);
+    background-image: linear-gradient(to bottom, #2186c4, #3498db);
+    text-decoration: none;
 
 }
 
@@ -59,16 +71,26 @@ text-decoration:none;
 position: absolute;
 left: 10%;
 bottom: 60%;
--webkit-border-radius: 20;
--moz-border-radius: 20;
-border-radius: 20px;
-color: #ffffff;
-font-size: 40px;
-background: #007fd4;
-padding: 10px 20px 10px 20px;
-text-decoration:none;
-
+-webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 40px;
+  background: #1b6ba1;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-color: #2186c4;
 }
+
+#knap2:hover {
+  background: #2186c4;
+    background-image: -webkit-linear-gradient(top, #2186c4, #3498db);
+    background-image: -moz-linear-gradient(top, #2186c4, #3498db);
+    background-image: -ms-linear-gradient(top, #2186c4, #3498db);
+    background-image: -o-linear-gradient(top, #2186c4, #3498db);
+    background-image: linear-gradient(to bottom, #2186c4, #3498db);
+    text-decoration: none;
 
 
 #overskrift {
@@ -165,7 +187,7 @@ text-decoration:none;
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1024px){
     .modal-content {
         width: 100%;
     }
@@ -177,8 +199,8 @@ body.forside-bg{
 }
 
 .mobilb{
-  max-width: 100%;
-  max-height: 50%;
+  display: flex;
+  flex-direction: column-reverse;
 
 }
 
