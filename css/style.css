@@ -17,17 +17,17 @@ body.forside-bg{
   background-image: none;
 }
 
-.flexcontainer {
-  display: flex;
-  justify-content: center;
-}
-
 .mobilb{
   display: flex;
   flex-direction: column-reverse;
 
 }
-
+#knap1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
 
 .btn btn-primary btn-lg {
 
@@ -35,11 +35,9 @@ body.forside-bg{
 }
 
 #antik {
+  font-size: 40px;
   text-align: center;
-  font-size: 45px;
   color: #1b3762;
-  font-family: 'Rozha One', serif;
-
 }
 
 }
@@ -48,19 +46,36 @@ body.forside-bg{
   img {
     display: none;
   }
+  #tilbage {
+  
+    -webkit-border-radius: 15;
+      -moz-border-radius: 15;
+      border-radius: 15px;
+      font-family: Georgia;
+      color: #ffffff;
+      font-size: 40px;
+      background: #1b6ba1;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+      border-color: #2186c4;
+  }
 
+  #tilbage:hover {
+    background: #2186c4;
+      background-image: -webkit-linear-gradient(top, #2186c4, #3498db);
+      background-image: -moz-linear-gradient(top, #2186c4, #3498db);
+      background-image: -ms-linear-gradient(top, #2186c4, #3498db);
+      background-image: -o-linear-gradient(top, #2186c4, #3498db);
+      background-image: linear-gradient(to bottom, #2186c4, #3498db);
+      text-decoration: none;
 
-
+  }
 #antik {
   text-align: center;
   color: #1b3762;
-  font-size: 80px;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 1%;
+  font-size: 75px;
 }
-
 }
-
 .container-slide {
   width: 100%;
   text-align: center;  /* align the inline(-block) elements horizontally */
@@ -83,8 +98,8 @@ body.forside-bg{
 
 #knap1 {
   position: absolute;
-  left: 65%;
-  bottom: 30%;
+  left: 55%;
+  bottom: 35%;
   -webkit-border-radius: 15;
     -moz-border-radius: 15;
     border-radius: 15px;
@@ -118,7 +133,7 @@ body.forside-bg{
 
 #knap2 {
 position: absolute;
-left: 14%;
+left: 10%;
 bottom: 60%;
 -webkit-border-radius: 15;
   -moz-border-radius: 15;

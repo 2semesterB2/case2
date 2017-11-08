@@ -11,12 +11,15 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   </head>
   <body>
+    <form method="get" action="index.php">
+              <button id="tilbage" type="submit">Forside</button>
+            </form>
   <div class="container-fluid">
     <div class="container-slide">
       <div class="image-slide">
-        <div><img src="img/statue/statue-1.jpg" class="slide-img"></div>
-        <div><img src="img/statue/statue-2.jpg" class="slide-img"></div>
-        <div><img src="img/statue/statue-3.jpg" class="slide-img"></div>
+        <div><a href="#"><img src="img/statue/statue-1.jpg" alt="Greek statue wrapped in clothes" class="slide-img"></a></div>
+        <div><a href="#"><img src="img/statue/statue-2.jpg" alt="Head of a greek statue" class="slide-img"></a></div>
+        <div><a href="#"><img src="img/statue/statue-3.jpg" alt="Greek statue of a man that is flexing his muscles" class="slide-img" ></a></div>
       </div>
     </div>
   </div>
@@ -28,12 +31,10 @@
   <script type="text/javascript">
     $(document).ready(function(){
       $('.image-slide').slick({
-          infinite: true,
-          prevArrow: false,
-          nextArrow: false,
+        infinite: true,
+        initOnLoad: true,
       });
     });
   </script>
-
   </body>
 </html>
