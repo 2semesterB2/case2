@@ -7,20 +7,26 @@
     <title>case 2</title>
     <link rel="stylesheet" href="/css/flexboxgrid.css">
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
 
   <body class="forside-bg">
     <div class="container-fluid">
       <h1 id="antik">Antikmuseet</h1>
-
+<div class="row">
+<div class="class-xs-12 knapp">
       <form method="get" action="statue.php">
             <button id="knap1" type="submit">Statue</button>
           </form>
-
+            </div>
+<div class="class-xs-12">
         <form method="get" action="Selfie.php">
                   <button id="knap2" type="submit">Selfie</button>
                 </form>
   </div>
+  </div>
+  </div>
+
 
 <div class="row">
   <div class="class-xs-12">
