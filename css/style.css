@@ -13,6 +13,64 @@ background-image: url("/img/background.png");
     body{
     background-image: none;
 }
+
+#knap2 {
+position: absolute;
+left: 30%;
+bottom: 65%;
+-webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 40px;
+  background: #ac5a1f;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-color: #ac5a1f;
+  opacity: 0.9;
+}
+
+#knap2:hover {
+  background: #2186c4;
+  background-image: -webkit-linear-gradient(top, #ac5a1f, #e08700);
+  background-image: -moz-linear-gradient(top, #ac5a1f, #e08700);
+  background-image: -ms-linear-gradient(top, #ac5a1f, #e08700);
+  background-image: -o-linear-gradient(top, #ac5a1f, #e08700);
+  background-image: linear-gradient(to bottom, #ac5a1f, #e08700);
+    text-decoration: none;
+
+}
+
+#knap1 {
+position: absolute;
+left: 30%;
+bottom: 25%;
+-webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 40px;
+  background: #ac5a1f;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-color: #ac5a1f;
+  opacity: 0.9;
+}
+
+#knap1:hover {
+background: #2186c4;
+background-image: -webkit-linear-gradient(top, #ac5a1f, #e08700);
+background-image: -moz-linear-gradient(top, #ac5a1f, #e08700);
+background-image: -ms-linear-gradient(top, #ac5a1f, #e08700);
+background-image: -o-linear-gradient(top, #ac5a1f, #e08700);
+background-image: linear-gradient(to bottom, #ac5a1f, #e08700);
+  text-decoration: none;
+
+}
+
+
 body.forside-bg{
   background-image: none;
 }
@@ -22,12 +80,6 @@ body.forside-bg{
   flex-direction: column-reverse;
 
 }
-#knap1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
-}
 
 .btn btn-primary btn-lg {
 
@@ -35,9 +87,11 @@ body.forside-bg{
 }
 
 #antik {
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
   color: #1b3762;
+  margin-bottom: 0%;
+  margin-top: 0%;
 }
 
 }
@@ -46,8 +100,72 @@ body.forside-bg{
   img {
     display: none;
   }
+  #antik {
+    font-size: 80px;
+    text-align: center;
+    color: #1b3762;
+    margin-top: 2%;
+  }
+
+  #knap2 {
+  position: absolute;
+  left: 30%;
+  bottom: 55%;
+  -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 20px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 45px;
+    background: #ac5a1f;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    border-color: #ac5a1f;
+    opacity: 0.9;
+
+  }
+
+  #knap2:hover {
+    background: #2186c4;
+      background-image: -webkit-linear-gradient(top, #ac5a1f, #e08700);
+      background-image: -moz-linear-gradient(top, #ac5a1f, #e08700);
+      background-image: -ms-linear-gradient(top, #ac5a1f, #e08700);
+      background-image: -o-linear-gradient(top, #ac5a1f, #e08700);
+      background-image: linear-gradient(to bottom, #ac5a1f, #e08700);
+      text-decoration: none;
+
+}
+
+#knap1 {
+  position: absolute;
+  left: 60%;
+  bottom: 27%;
+  -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 45px;
+    background: #ac5a1f;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    border-color: #ac5a1f;
+      opacity: 0.9;
+}
+
+#knap1:hover {
+  background: #2186c4;
+  background-image: -webkit-linear-gradient(top, #ac5a1f, #e08700);
+  background-image: -moz-linear-gradient(top, #ac5a1f, #e08700);
+  background-image: -ms-linear-gradient(top, #ac5a1f, #e08700);
+  background-image: -o-linear-gradient(top, #ac5a1f, #e08700);
+  background-image: linear-gradient(to bottom, #ac5a1f, #e08700);
+    text-decoration: none;
+
+}
+
   #tilbage {
-  
+
     -webkit-border-radius: 15;
       -moz-border-radius: 15;
       border-radius: 15px;
@@ -70,12 +188,8 @@ body.forside-bg{
       text-decoration: none;
 
   }
-#antik {
-  text-align: center;
-  color: #1b3762;
-  font-size: 75px;
 }
-}
+
 .container-slide {
   width: 100%;
   text-align: center;  /* align the inline(-block) elements horizontally */
@@ -96,80 +210,12 @@ body.forside-bg{
   margin: 0 auto;
 }
 
-#knap1 {
-  position: absolute;
-  left: 55%;
-  bottom: 35%;
-  -webkit-border-radius: 15;
-    -moz-border-radius: 15;
-    border-radius: 15px;
-    font-family: Georgia;
-    color: #ffffff;
-    font-size: 40px;
-    background: #1b6ba1;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    border-color: #2186c4;
-}
-
-#knap1:hover {
-  background: #2186c4;
-    background-image: -webkit-linear-gradient(top, #2186c4, #3498db);
-    background-image: -moz-linear-gradient(top, #2186c4, #3498db);
-    background-image: -ms-linear-gradient(top, #2186c4, #3498db);
-    background-image: -o-linear-gradient(top, #2186c4, #3498db);
-    background-image: linear-gradient(to bottom, #2186c4, #3498db);
-    text-decoration: none;
-
-}
-
 #statue-bg {
   background: url("/img/greece-background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#knap2 {
-position: absolute;
-left: 10%;
-bottom: 60%;
--webkit-border-radius: 15;
-  -moz-border-radius: 15;
-  border-radius: 15px;
-  font-family: Georgia;
-  color: #ffffff;
-  font-size: 40px;
-  background: #1b6ba1;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  border-color: #2186c4;
-}
-
-#knap2:hover {
-  background: #2186c4;
-    background-image: -webkit-linear-gradient(top, #2186c4, #3498db);
-    background-image: -moz-linear-gradient(top, #2186c4, #3498db);
-    background-image: -ms-linear-gradient(top, #2186c4, #3498db);
-    background-image: -o-linear-gradient(top, #2186c4, #3498db);
-    background-image: linear-gradient(to bottom, #2186c4, #3498db);
-    text-decoration: none;
-
-
-#overskrift {
-
-  text-align: center;
-}
-
-#lol {
-    border:2px solid;
-    border-color: #1b3762 !important;
-    padding-top: 45px;
-    background: url("img/logo1.png");
-    background-position: right top;
-    background-repeat: no-repeat;
-    float: left;
 }
 
 #myImg {
@@ -249,5 +295,3 @@ bottom: 60%;
     text-decoration: none;
     cursor: pointer;
 }
-
-/* 100% Image Width on Smaller Screens */
