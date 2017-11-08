@@ -23,12 +23,12 @@
   </div>
 
 <div class="row">
-  <div class="class-xs12">
+  <div class="class-xs-12">
     <div class="mobilb">
         <img src="/img/selfiemobil.jpg" alt="" width="100%">
     </div>
     </div>
-    <div class="class-xs12">
+    <div class="class-xs-12">
     <div class="mobilb">
       <img src="/img/statuemobil.png" alt="" width="100%">
     </div>

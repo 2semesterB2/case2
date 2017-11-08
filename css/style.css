@@ -6,7 +6,34 @@ background-image: url("/img/background.png");
  background-size: cover;
  background-repeat: no-repeat;
 }
+@media only screen and (max-width: 1024px){
+    .modal-content {
+        width: 100%;
+    }
+    body{
+    background-image: none;
+}
+body.forside-bg{
+  background-image: none;
+}
 
+.mobilb{
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+
+
+.btn btn-primary btn-lg {
+
+  left: 250% !important;
+}
+
+#antik{
+  font-size: 45px;
+}
+
+}
 @media screen and (min-width: 1025px) {
 
   img {
@@ -196,30 +223,3 @@ bottom: 60%;
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 1024px){
-    .modal-content {
-        width: 100%;
-    }
-    body{
-    background-image: none;
-}
-body.forside-bg{
-  background-image: none;
-}
-
-.mobilb{
-  display: flex;
-  flex-direction: column-reverse;
-
-}
-
-.btn btn-primary btn-lg {
-
-  left: 250% !important;
-}
-
-#antik{
-  font-size: 45px;
-}
-
-}
