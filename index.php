@@ -11,7 +11,7 @@
 
   <body class="forside-bg">
     <div class="container-fluid">
-      <h1 id="antik">Antikmuseet</h1>
+      <h1 id="antik"> Antikmuseet</h1>
 
 
       <form method="get" action="statue.php">
@@ -37,7 +37,26 @@
   </div>
 
 </div>
+<footer>
+  <div class="row">
+    <div class="col-xs-offset-1 col-xs-5">
 
+<p class="adresse">
+Adresse: <br> <br>
+Nobelparken
+Jens Chr. Skous vej 7 <br>
+8000 Aarhus C <br> Telefon: 87 16 11 06</p>
+  </div>
+
+  <div class=" col-xs-6 ">
+    <p class="open">
+    Åbningstider 2017:<br><br>
+    Søndag - torsdag: 12:00-16:00
+</p>
+  </div>
+</div>
+
+</footer>
 
   </body>
 </html>
