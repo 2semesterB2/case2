@@ -43,15 +43,17 @@
 
 <p class="adresse">
 Adresse: <br> <br>
-Nobelparken
-Jens Chr. Skous vej 7 <br>
-8000 Aarhus C <br> Telefon: 87 16 11 06</p>
+Victor Albecks Vej 3<br>
+8000 Aarhus
+ <br> </p>
   </div>
 
   <div class=" col-xs-6 ">
     <p class="open">
     Åbningstider 2017:<br><br>
     Søndag - torsdag: 12:00-16:00
+
+    Telefon: 87 16 11 06
 </p>
   </div>
 </div>
