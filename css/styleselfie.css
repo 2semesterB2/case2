@@ -17,9 +17,26 @@ label {
 }
 
 #overskrift {
-
+  font-size: 80px;
   text-align: center;
+  color: #1b3762;
+  margin-top: -3%;
 }
+
+
+  #tilbage {
+
+    -webkit-border-radius: 15;
+      -moz-border-radius: 15;
+      border-radius: 15px;
+      font-family: Georgia;
+      color: #ffffff;
+      font-size: 40px;
+      background: #1b6ba1;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+      border-color: #2186c4;
+  }
 
 #lol {
     border:2px solid;

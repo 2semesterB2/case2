@@ -13,10 +13,12 @@
   <body>
 
     <div class="container-fluid">
-
-    <h1 id="overskrift"> Case 2 </h1>
+      <form method="get" action="index.php">
+                <button id="tilbage" type="submit">Forside</button>
+              </form>
+    <h1 id="overskrift"> Antikmuseet </h1>
     <form class="pic" method="post" enctype="multipart/form-data">
-      <label> Antikmuseet </label>
+      <label> Upload dine billeder af dit besøg på museet her </label>
 
     <p><input type="file"  name="file"/></p>
     <p><input type="submit" name="upload" value="Upload Billede"></p>
