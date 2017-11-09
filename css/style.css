@@ -24,6 +24,23 @@ footer{
 
 }
 
+#tilbage{
+
+  -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 15px;
+    background: #ac5a1f;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    border-color: #ac5a1f;
+    opacity: 0.9;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
 
 #knap2 {
 position: absolute;
@@ -56,7 +73,7 @@ bottom: 65%;
 #knap1 {
 position: absolute;
 left: 30%;
-bottom: 25%;
+bottom: 20%;
 -webkit-border-radius: 15;
   -moz-border-radius: 15;
   border-radius: 15px;
