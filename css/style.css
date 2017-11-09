@@ -191,19 +191,20 @@ footer {
       font-family: Georgia;
       color: #ffffff;
       font-size: 40px;
-      background: #1b6ba1;
+      background: #ac5a1f;
       padding: 10px 20px 10px 20px;
       text-decoration: none;
-      border-color: #2186c4;
+      border-color: #ac5a1f;
+      opacity: 0.9;
   }
 
   #tilbage:hover {
     background: #2186c4;
-      background-image: -webkit-linear-gradient(top, #2186c4, #3498db);
-      background-image: -moz-linear-gradient(top, #2186c4, #3498db);
-      background-image: -ms-linear-gradient(top, #2186c4, #3498db);
-      background-image: -o-linear-gradient(top, #2186c4, #3498db);
-      background-image: linear-gradient(to bottom, #2186c4, #3498db);
+    background-image: -webkit-linear-gradient(top, #ac5a1f, #e08700);
+    background-image: -moz-linear-gradient(top, #ac5a1f, #e08700);
+    background-image: -ms-linear-gradient(top, #ac5a1f, #e08700);
+    background-image: -o-linear-gradient(top, #ac5a1f, #e08700);
+    background-image: linear-gradient(to bottom, #ac5a1f, #e08700);
       text-decoration: none;
 
   }
