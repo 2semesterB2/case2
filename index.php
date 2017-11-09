@@ -11,7 +11,7 @@
 
   <body class="forside-bg">
     <div class="container-fluid">
-      <h1 id="antik"> Antikmuseet</h1>
+      <h1 id="antik"><img src="/img/logo.png" alt="" class="logo2"> Antikmuseet</h1>
 
 
       <form method="get" action="statue.php">
@@ -39,19 +39,18 @@
 </div>
 <footer>
   <div class="row">
-    <div class="col-xs-offset-1 col-xs-5">
+    <div class="col-xs-6">
 
 <p class="adresse">
 Adresse: <br> <br>
 Victor Albecks Vej 3<br>
-8000 Aarhus
- <br> </p>
+8000 Aarhus </p>
   </div>
 
   <div class=" col-xs-6 ">
     <p class="open">
     Åbningstider 2017:<br><br>
-    Søndag - torsdag: 12:00-16:00
+    Søndag - torsdag: 12:00-16:00 <br>
 
     Telefon: 87 16 11 06
 </p>

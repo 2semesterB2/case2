@@ -12,18 +12,17 @@ background-image: url("/img/background.png");
     }
     body{
     background-image: none;
+    margin: -8px;
 }
 
-.adresse{
-
-}
 footer{
   background-color: rgb(1, 37, 57);
-  margin: -16px;
   color: white;
   padding-top: 15px;
-}
+  padding-left: 16px;
+  padding-right: 16px;
 
+}
 
 
 #knap2 {
@@ -107,7 +106,15 @@ body.forside-bg{
 }
 
 }
+
+
+
 @media screen and (min-width: 1025px) {
+
+footer {
+  display: none;
+}
+
 
   img {
     display: none;
